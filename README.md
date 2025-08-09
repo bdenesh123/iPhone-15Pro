@@ -14,7 +14,7 @@ A clone of Apple's **iPhone 15 Pro** product page, built with React.js, Tailwind
 
 ## 🚀 Live Demo
 
-Live Site: https://iphone-15-pro-three.vercel.app/
+Live Site: https://react-iphone-15-pro.vercel.app/
 
 ## 📦 Getting Started
 
