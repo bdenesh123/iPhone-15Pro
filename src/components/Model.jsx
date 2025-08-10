@@ -12,11 +12,7 @@ import { animateWithGsapTimeline } from "../utils/animations";
 
 const Model = () => {
   const [size, setSize] = useState("small");
-  const [model, setModel] = useState({
-    title: "iPhone 15 Pro in Natural Titanium",
-    color: ["#8F8A81", "#FFE7B9", "#6F6C64"],
-    img: yellowImg,
-  });
+  const [model, setModel] = useState(models[0]);
 
   // camera control for the model view
   const cameraControlSmall = useRef();
@@ -98,7 +94,9 @@ const Model = () => {
           </div>
 
           <div className="mx-auto w-full">
-            <p className="text-sm font-light text-center mb-5">{model.title}</p>
+            <p className="text-sm font-light text-center mb-5">
+              {model.titles[size]}
+            </p>
 
             <div className="flex-center">
               <ul className="color-container">
